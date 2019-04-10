@@ -22,6 +22,11 @@ I did not participate in the competition. I solved some problems for practice.
 
 ### Problems Solved
 
+**Round 1A 2018**
+  * Waffle Choppers
+  * Bit Party
+  * Edgy Baking
+
 **Qualification Round 2018**
   * Saving The Universe Again
   * Trouble Sort
