@@ -17,7 +17,7 @@ My solutions to Google Code Jam problems. Written mostly in C++.
   * Cryptopangrams (Fails test set 2)
   * Dat Bae
 
-## Code Jam 2017-2018
+## Code Jam 2017 & Code Jam 2018
 I did not participate in the competition. I solved some problems for practice.
 
 ### Problems Solved
