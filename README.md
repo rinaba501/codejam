@@ -24,7 +24,7 @@ I did not participate in the competition. I solved some problems for practice.
 
 **Round 1A 2018**
   * Waffle Choppers
-  * Bit Party (buggy)
+  * Bit Party
   * Edgy Baking
 
 **Qualification Round 2018**
