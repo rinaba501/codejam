@@ -1,59 +1,43 @@
 #include <iostream>
-#include <vector>
-#include <queue>
-#include <functional>
 #include <cmath>
-#include <unordered_map>
+#include <algorithm>
+
+#define MAXC 1000
 using namespace std;
+typedef long long ll;
 
-int T, R, B, C;
+ll M[MAXC], S[MAXC], P[MAXC], max_items[MAXC];
+int T; 
+ll R, B, C; 
 
-class Cashier {
-public:
-    int m;
-    int s;
-    int p;
-    int num_bits;
-    int cost;
-};
-
-struct cmp {
-    bool operator()(Cashier left, Cashier right) { 
-        return (left.cost) > (right.cost);
-    };
-};
-
-int solve() {
-    priority_queue<Cashier, vector<Cashier>, cmp > pq;
-    Cashier cash = Cashier();
-    for (int i = 0; i < C; ++i) {
-        cin >> cash.m >> cash.s >> cash.p;
-        cash.cost = cash.p + cash.s;
-        cash.num_bits = 0;
-        if (cash.m) pq.push(cash);
+ll solve() {
+    for (int i = 0; i < C; i++) {
+        cin >> M[i] >> S[i] >> P[i];
     }
 
-    vector<int> nums(B, 0);
-    int sum = 0;
-    while (sum < B) {
-        cash = pq.top();
-        pq.pop();
-        nums[cash.num_bits]++;
-        if (nums[cash.num_bits] <= R) {
-            sum++;
-            if (sum == B) return cash.cost;
+    ll min_time = 1;
+    ll max_time = powl(10, 18) + powl(10, 9);
+    ll curr_time;
+
+    while (min_time < max_time) {
+        curr_time = (min_time + max_time)/2;
+        for (int i = 0; i < C; i++) {
+            ll items = max(0ll, curr_time - P[i]) / S[i];
+            max_items[i] = max(0ll, min(M[i], items));
         }
-        cash.m--;
-        cash.num_bits++;
-        if (cash.m) {
-            cash.cost += cash.s;
-            pq.push(cash);
+
+        sort(max_items, max_items + C, greater<ll>());
+        ll total = 0;
+        for (int i = 0; i < R; i++) {
+            total += max_items[i];
         }
+        if (total >= B)  max_time = curr_time;
+        else min_time = curr_time + 1;
     }
-    return -1;
+    return min_time;
 }
 
-int main () {
+int main() {
     cin >> T;
     for (int t = 1; t <= T; ++t) {
         cin >> R >> B >> C;
