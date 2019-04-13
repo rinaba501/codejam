@@ -31,11 +31,6 @@ My solutions to Google Code Jam problems. Written mostly in C++.
 | Cryptopangram            |:white_check_mark:|:x:               |                  |
 | Dat Bae                  |:white_check_mark:|:white_check_mark:|                  |
 
-  * Foregone Solution
-  * You Can Go Your Own Way
-  * Cryptopangrams (Fails test set 2)
-  * Dat Bae
-
 ## Code Jam 2017 & Code Jam 2018
 I did not participate in the competition. I solved some problems for practice.
 
