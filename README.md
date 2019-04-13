@@ -13,8 +13,8 @@ My solutions to Google Code Jam problems. Written mostly in C++.
 ### Problems Attempted
 
 **Round 1A 2019**
-  * Pylons (Have no clue)
-  * Golf Gophers (Fails test set 2)
+  * Pylons (Have not attempted)
+  * Golf Gophers
   * Alien Rhyme
 
 **Qualification Round 2019**
