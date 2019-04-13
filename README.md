@@ -24,7 +24,7 @@ My solutions to Google Code Jam problems. Written mostly in C++.
 
 **Qualification Round 2019**
 
-| Problem                  | Test Set 1       | Test Set 2       | Test Set 2       |
+| Problem                  | Test Set 1       | Test Set 2       | Test Set 3       |
 |--------------------------|:----------------:|:----------------:|:----------------:|
 | Foregone Solution        |:heavy_check_mark:|:heavy_check_mark:|:white_check_mark:|
 | You Can Go Your Own Way  |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
