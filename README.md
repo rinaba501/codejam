@@ -7,9 +7,15 @@ My solutions to Google Code Jam problems. Written mostly in C++.
 ### Progress
 | Round                    | Points | Rank  |
 |--------------------------|:------:|:-----:|
+| Round 1A 2019            | 48/100 | 1288  |
 | Qualification Round 2019 | 40/100 | 21976 |
 
-### Problems Solved
+### Problems Attempted
+
+**Round 1A 2019**
+  * Pylons (Have no clue)
+  * Golf Gophers (Fails test set 2)
+  * Alien Rhyme
 
 **Qualification Round 2019**
   * Foregone Solution
