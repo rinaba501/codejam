@@ -23,7 +23,6 @@ int main() {
                 sum += num;
         }
         
-        
         cout << sum << endl;
         int verdict;
         cin >> verdict;

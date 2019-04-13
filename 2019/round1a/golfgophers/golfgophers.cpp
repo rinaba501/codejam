@@ -9,13 +9,13 @@ int T, N, M;
 
 int main() {
     cin >> T >> N >> M;
-    vector<int> vec{2,3,5,7,11,13,17};
+    vector<int> vec{5,7,9,11,13,16,17};
     for (int t =0; t < T; ++t) {
         vector<int> remainders(7);
         int n = 0;
         int num = 0;
         int min = 0;
-        for (auto num_b: vec) {
+        for (int num_b: vec) {
             for (int i = 0; i < 18; ++i) {
                 cout << num_b << " ";
             }
@@ -31,9 +31,10 @@ int main() {
         }
 
         for (int i = 0; i <= M; ++i) {
-            if (i%2 == remainders[0] && i%3 == remainders[1] && i%5 == remainders[2] &&
-            i%7 == remainders[3] && i%11 == remainders[4] && i%13 == remainders[5] && 
-            i%17 == remainders[6]) {
+            int j = 0;
+            for (; j < 7; ++j)
+                if (i%vec[j] != remainders[j]) break;
+            if (j == 7)  {
                 cout << i << endl;
                 break;
             }
