@@ -5,9 +5,10 @@ My solutions to Google Code Jam problems. Written mostly in C++.
 ## Code Jam 2019
 
 ### Progress
+
 | Round                    | Points | Rank  |
 |--------------------------|:------:|:-----:|
-| Round 1A 2019            | 48/100 | 1288  |
+| Round 1A 2019            | 48/100 | 1282  |
 | Qualification Round 2019 | 40/100 | 21976 |
 
 :heavy_check_mark: Solved during competition
