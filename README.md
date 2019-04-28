@@ -15,6 +15,14 @@ My solutions to Google Code Jam problems. Written mostly in C++.
 :white_check_mark: Solved after competition
 :x: Not solved
 
+**Round 1B 2019**
+
+| Problem                  | Test Set 1       | Test Set 2       |
+|--------------------------|:----------------:|:----------------:|
+| Manhattan Crepe Cart     |:white_check_mark:|:white_check_mark:|
+| Draupnir                 |:x:               |:x:               |
+| Fair Fight               |:x:               |:x:               |
+
 **Round 1A 2019**
 
 | Problem                  | Test Set 1       | Test Set 2       |
