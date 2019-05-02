@@ -20,7 +20,7 @@ My solutions to Google Code Jam problems. Written mostly in C++.
 | Problem                  | Test Set 1       | Test Set 2       |
 |--------------------------|:----------------:|:----------------:|
 | Manhattan Crepe Cart     |:white_check_mark:|:white_check_mark:|
-| Draupnir                 |:white_check_mark:|:x:               |
+| Draupnir                 |:white_check_mark:|:white_check_mark:|
 | Fair Fight               |:x:               |:x:               |
 
 **Round 1A 2019**
