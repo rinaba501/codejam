@@ -1,0 +1,17 @@
+4
+2
+RS
+SRS
+3
+RS
+SRS
+PPS
+3
+RR
+RRS
+SPR
+4
+RR
+RRR
+SPR
+RRPR
