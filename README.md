@@ -10,7 +10,7 @@ My solutions to Google Code Jam problems. Written mostly in C++.
 |--------------------------|:------:|:-----:|
 | Round 1A 2019            | 48/100 | 1282  |
 | Qualification Round 2019 | 40/100 | 21976 |
-
+##my comment
 :heavy_check_mark: Solved during competition
 :white_check_mark: Solved after competition
 :x: Not solved
